@@ -3,4 +3,4 @@ options:
 actions:
   test_action: ./actions/test_action.js
 integrations:
-  marketoOAuth: ./marketo.js
+  marketoOAuth: ./integrations/marketo/index.js
