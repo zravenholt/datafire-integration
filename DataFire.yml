@@ -2,3 +2,5 @@ options:
   cors: true
 actions:
   test_action: ./actions/test_action.js
+integrations:
+  marketoOAuth: ./marketoOAuth.json
