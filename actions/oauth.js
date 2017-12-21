@@ -10,6 +10,7 @@ module.exports = new datafire.Action({
       client_secret: "CLIENT SECRET",
       grant_type: "client_credentials",
     }, context);
+    context.accounts.marketoRestAPI = {access_token: responseOfIdentity.access_token}
     let result = await marketoRestAPI.getAllChannelsUsingGET({}, context);
     return result;
   },
