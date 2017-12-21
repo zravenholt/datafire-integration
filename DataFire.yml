@@ -5,4 +5,4 @@ actions:
   oauth: ./actions/oauth.js
 integrations:
   marketoOAuth: ./integrations/marketoOAuth/index.js
-  marketoRestAPI: ./integrations/marketoAPI/index.js
+  marketoRestAPI: ./integrations/marketoRestAPI/index.js
