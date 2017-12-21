@@ -1,7 +1,7 @@
 "use strict";
 let datafire = require('datafire');
 
-let marketo = datafire.Integration.fromName('marketo').actions;
+let marketo = datafire.Integration.fromName('marketoOAuth').actions;
 module.exports = new datafire.Action({
   handler: async (input, context) => {
     let responseOfIdentity = await marketo.identityUsingGET({

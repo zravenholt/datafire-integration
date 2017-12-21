@@ -4,5 +4,5 @@ actions:
   test_action: ./actions/test_action.js
   oauth: ./actions/oauth.js
 integrations:
-  marketoOAuth: ./integrations/marketo/index.js
+  marketoOAuth: ./integrations/marketoOAuth/index.js
   marketoAPI: ./integrations/marketoAPI/index.js

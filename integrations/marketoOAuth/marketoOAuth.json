@@ -2,9 +2,9 @@
   "swagger": "2.0",
   "schemes": ["https"],
   "info": {
-    "description": "Marketo Rest API",
+    "description": "Marketo OAuth API",
     "version": "1.0",
-    "title": "Marketo Rest API",
+    "title": "Marketo OAuth API",
     "termsOfService": "https://www.marketo.com/company/legal/",
     "contact": {
       "name": "Marketo Developer Relations",
