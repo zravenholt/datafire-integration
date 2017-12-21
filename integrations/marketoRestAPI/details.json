@@ -2,7 +2,14 @@
   "id": "marketoRestAPI",
   "title": "Marketo Rest API",
   "description": "Marketo Rest API",
-  "security": {},
+  "security": {
+    "marketoRestAPI": {
+      "integration": "marketoRestAPI",
+      "fields": {
+        "access_token": "API key"
+      }
+    }
+  },
   "actionCount": 138,
   "definitions": {
     "CreateProgramRequest": {
@@ -4322,6 +4329,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfChannelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getAllChannelsUsingGET",
@@ -4345,6 +4357,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfChannelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailByNameUsingGET",
@@ -4372,6 +4389,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailByIdUsingGET",
@@ -4396,6 +4418,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateEmailUsingPOST",
@@ -4418,6 +4445,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "approveDraftUsingPOST",
@@ -4437,6 +4469,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneEmailUsingPOST",
@@ -4459,6 +4496,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailContentByIdUsingGET",
@@ -4483,6 +4525,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateEmailContentUsingPOST",
@@ -4505,6 +4552,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "rearrangeModulesUsingPOST",
@@ -4527,6 +4579,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateEmailComponentContentUsingPOST",
@@ -4553,6 +4610,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "addModuleUsingPOST",
@@ -4585,6 +4647,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteModuleUsingPOST",
@@ -4608,6 +4675,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "duplicateModuleUsingPOST",
@@ -4635,6 +4707,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "renameUsingPOST",
@@ -4662,6 +4739,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteEmailUsingPOST",
@@ -4681,6 +4763,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "discardDraftUsingPOST",
@@ -4700,6 +4787,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailDynamicContentUsingGET",
@@ -4728,6 +4820,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailDynamicContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateEmailDynamicContentUsingPOST",
@@ -4754,6 +4851,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "sendSampleEmailUsingPOST",
@@ -4776,6 +4878,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfobject"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "unapproveDraftUsingPOST",
@@ -4795,6 +4902,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateVariableUsingPOST",
@@ -4821,6 +4933,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailVariablesUsingGET",
@@ -4840,6 +4957,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getTemplateByNameUsingGET",
@@ -4863,6 +4985,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getTemplateByIdUsingGET",
@@ -4887,6 +5014,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateEmailTemplateUsingPOST",
@@ -4909,6 +5041,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "approveDraftUsingPOST_1",
@@ -4928,6 +5065,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneTemplateUsingPOST",
@@ -4950,6 +5092,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getTemplateContentByIdUsingGET",
@@ -4974,6 +5121,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateEmailTemplateContentUsingPOST",
@@ -4996,6 +5148,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteTemplateUsingPOST",
@@ -5015,6 +5172,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "discardDraftUsingPOST_1",
@@ -5034,6 +5196,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "unapproveDraftUsingPOST_1",
@@ -5053,6 +5220,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailTemplatesUsingGET",
@@ -5081,6 +5253,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createEmailTemplateUsingPOST",
@@ -5098,6 +5275,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailUsingGET",
@@ -5130,6 +5312,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createEmailUsingPOST",
@@ -5147,6 +5334,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfEmailResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getEmailFullContentUsingGET",
@@ -5181,6 +5373,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfGetEmailFullContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createEmailFullContentUsingPOST",
@@ -5198,6 +5395,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfUpdateEmailFullContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFileByNameUsingGET",
@@ -5216,6 +5418,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFileResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFileByIdUsingGET",
@@ -5235,6 +5442,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFileResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateContentUsingPOST",
@@ -5257,6 +5469,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFileResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFilesUsingGET",
@@ -5278,6 +5495,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFileResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createFileUsingPOST",
@@ -5295,6 +5517,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFileResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFolderByNameUsingGET",
@@ -5324,6 +5551,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFolderResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFolderByIdUsingGET",
@@ -5349,6 +5581,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFolderResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateFolderUsingPOST",
@@ -5371,6 +5608,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFolderResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFolderContentUsingGET",
@@ -5405,6 +5647,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFolderContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteFolderUsingPOST",
@@ -5430,6 +5677,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getTokensByFolderIdUsingGET",
@@ -5455,6 +5707,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfTokenResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "addTokenTOFolderUsingPOST",
@@ -5477,6 +5734,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfTokenResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteTokenByNameUsingPOST",
@@ -5499,6 +5761,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFolderUsingGET",
@@ -5525,6 +5792,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFolderResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createFolderUsingPOST",
@@ -5542,6 +5814,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFolderResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLpFormByNameUsingGET",
@@ -5569,6 +5846,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getAllFieldsUsingGET",
@@ -5592,6 +5874,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFieldsMetaDataResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "addFormFieldVisibilityRuleUsingPOST",
@@ -5618,6 +5905,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfFormVisibilityRuleResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLpFormByIdUsingGET",
@@ -5642,6 +5934,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateFormsUsingPOST",
@@ -5664,6 +5961,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "approveFromUsingPOST",
@@ -5683,6 +5985,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneLpFormsUsingPOST",
@@ -5705,6 +6012,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteFormByIdUsingPOST",
@@ -5724,6 +6036,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "discardFormByIdUsingPOST",
@@ -5743,6 +6060,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateFormFieldUsingPOST",
@@ -5769,6 +6091,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormFieldResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteFormFieldUsingPOST",
@@ -5792,6 +6119,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "addFieldSetUsingPOST",
@@ -5814,6 +6146,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormFieldResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteFormFieldFromFieldSetUsingPOST",
@@ -5841,6 +6178,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getFormFieldByFormVidUsingGET",
@@ -5865,6 +6207,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormFieldResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "addFieldToAFormUsingPOST",
@@ -5887,6 +6234,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormFieldResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateFieldPositionsUsingPOST",
@@ -5909,6 +6261,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "addRichTextFieldUsingPOST",
@@ -5931,6 +6288,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormFieldResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateFormSubmitButtonUsingPOST",
@@ -5953,6 +6315,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getThankYouPageByIdUsingGET",
@@ -5977,6 +6344,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfThankYouPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateThankYouPageByIdUsingPOST",
@@ -5999,6 +6371,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfThankYouPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "browseForms2UsingGET",
@@ -6030,6 +6407,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createLpFormsUsingPOST",
@@ -6047,6 +6429,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpFormResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageByNameUsingGET",
@@ -6080,6 +6467,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageByIdUsingGET",
@@ -6104,6 +6496,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateLandingPageUsingPOST",
@@ -6126,6 +6523,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "approveLandingPageUsingPOST",
@@ -6145,6 +6547,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneLandingPageUsingPOST",
@@ -6167,6 +6574,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageContentUsingGET",
@@ -6191,6 +6603,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "addLandingPageContentUsingPOST",
@@ -6213,6 +6630,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateLandingPageContentUsingPOST",
@@ -6239,6 +6661,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "removeLandingPageContentUsingPOST",
@@ -6262,6 +6689,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteLandingPageByIdUsingPOST",
@@ -6281,6 +6713,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "discardLandingPageByIdUsingPOST",
@@ -6300,6 +6737,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageDynamicContentsUsingGET",
@@ -6323,6 +6765,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageDynamicContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateLandingPageDynamicContentUsingPOST",
@@ -6349,6 +6796,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "unapproveLandingPageByIdUsingPOST",
@@ -6368,6 +6820,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateLandingPageVariableUsingPOST",
@@ -6396,6 +6853,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageVariableResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getVariablesUsingGET",
@@ -6420,6 +6882,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageVariableResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageTemplateByNameUsingGET",
@@ -6438,6 +6905,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageTemplateByIdUsingGET",
@@ -6462,6 +6934,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateLpTemplateUsingPOST",
@@ -6484,6 +6961,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "approveLandingPageTemplateUsingPOST",
@@ -6503,6 +6985,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneLpTemplateUsingPOST",
@@ -6525,6 +7012,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateLandingPageTemplateContentUsingPOST",
@@ -6548,6 +7040,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageTemplateContentUsingGET",
@@ -6572,6 +7069,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateGetContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteLpTemplateUsingPOST",
@@ -6591,6 +7093,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "discardDraftUsingPOST_2",
@@ -6610,6 +7117,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "unapproveLandingPageTemplateUsingPOST",
@@ -6629,6 +7141,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getLandingPageTemplatesUsingGET",
@@ -6661,6 +7178,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createLpTemplateUsingPOST",
@@ -6678,6 +7200,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLpTemplateResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "browseLandingPagesUsingGET",
@@ -6710,6 +7237,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createLandingPageUsingPOST",
@@ -6727,6 +7259,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfLandingPageResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getProgramByNameUsingGET",
@@ -6744,6 +7281,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfProgramResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getProgramListByTagUsingGET",
@@ -6776,6 +7318,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfProgramResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getProgramByIdUsingGET",
@@ -6795,6 +7342,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfProgramResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateProgramUsingPOST",
@@ -6817,6 +7369,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfProgramResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "approveProgramUsingPOST",
@@ -6836,6 +7393,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneProgramUsingPOST",
@@ -6858,6 +7420,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfProgramResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteProgramUsingPOST",
@@ -6877,6 +7444,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "unapproveProgramUsingPOST",
@@ -6896,6 +7468,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "browseProgramsUsingGET",
@@ -6932,6 +7509,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfBrowseAllPrograms"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createProgramUsingPOST",
@@ -6949,6 +7531,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfProgramResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSegmentationUsingGET",
@@ -6967,6 +7554,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSegmentationResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSegmentsForSegmentationUsingGET",
@@ -7001,6 +7593,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSegmentsResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSnippetByIdUsingGET",
@@ -7025,6 +7622,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateSnippetUsingPOST",
@@ -7047,6 +7649,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "approveSnippetUsingPOST",
@@ -7066,6 +7673,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneSnippetUsingPOST",
@@ -7088,6 +7700,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSnippetContentByIdUsingGET",
@@ -7112,6 +7729,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetContentResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateContentUsingPOST_1",
@@ -7134,6 +7756,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteSnippetUsingPOST",
@@ -7153,6 +7780,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "discardSnippetUsingPOST",
@@ -7172,6 +7804,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getDynamicContentUsingGET",
@@ -7196,6 +7833,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ModelResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "updateDynamicContentUsingPOST",
@@ -7223,6 +7865,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "unapproveSnippetUsingPOST",
@@ -7242,6 +7889,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSnippetUsingGET",
@@ -7270,6 +7922,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "createSnippetUsingPOST",
@@ -7287,6 +7944,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSnippetResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getTagByNameUsingGET",
@@ -7308,6 +7970,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfTagResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSmartListByIdUsingGET",
@@ -7327,6 +7994,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSmartListResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSmartListByNameUsingGET",
@@ -7345,6 +8017,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSmartListResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "deleteSmartListByIdUsingPOST",
@@ -7364,6 +8041,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfIdResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getSmartListsUsingGET",
@@ -7391,6 +8073,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSmartListResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "cloneSmartListUsingPOST",
@@ -7413,6 +8100,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfSmartListResponse"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }, {
     "id": "getTagTypesUsingGET",
@@ -7436,6 +8128,11 @@
     },
     "outputSchema": {
       "$ref": "#/definitions/ResponseOfTagResponseGetAll"
+    },
+    "security": {
+      "marketoRestAPI": {
+        "integration": "marketoRestAPI"
+      }
     }
   }]
 }

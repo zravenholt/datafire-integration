@@ -17,6 +17,13 @@
   },
   "host": "779-ZHH-801.mktorest.com",
   "basePath": "\/",
+  "securityDefinitions": {
+    "access_token": {
+      "type": "apiKey",
+      "in": "query",
+      "name": "access_token"
+    }
+  },
   "tags": [{
       "name": "Tokens",
       "description": "Token Controller"
