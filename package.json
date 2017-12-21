@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/zravenholt/datafire-integration#readme",
   "dependencies": {
-    "datafire": "^2.17.0",
-    "@datafire/reddit_rss": "2.0.3"
+    "datafire": "^2.17.0"
   }
 }
