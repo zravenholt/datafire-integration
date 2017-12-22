@@ -20,7 +20,7 @@
 Make sure the openAPI.json file found at ./integrations/marketoRestAPI/marketoRestAPI.json has your correct Marketo hostname for its Swagger specification. 
 
 This is the code in your Marketo end point: 
-https://**111-AAA-111**.mktorest.com/rest. You can find yours in your marketo app at Admin -> Integration -> Web Services.
+https://**111-AAA-111**.mktorest.com/rest. You can find yours in your Marketo app at Admin -> Integration -> Web Services.
 
 Add it to your json file, at: 
 { 
@@ -42,7 +42,7 @@ This updates your details.json files with the new Swagger hostname. Push the cha
 
 Log onto Datafire, start a new project and clone your updated repo in Project settings.
 
-Then, fill in the required fields for OAuth of Client ID and Client Secret, found from your membership with Marketo, which is in Marketo's app at Admin -> Integration -> Launchpoint.
+Then, fill in the required fields for OAuth of Client ID and Client Secret for your actions found in ./actions. Client details can be found in Marketo's app at Admin -> Integration -> Launchpoint.
 
 From here, you can make any actions desired, by first having an OAuth action that returns your access token, and include that token in all subsequent calls to the Rest API.
 
